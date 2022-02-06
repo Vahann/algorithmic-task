@@ -1,11 +1,6 @@
 package com.company;
 
-import com.company.checkNumber.CheckNumber;
-import com.company.getNextEvenNumber.GetNextEvenNumber;
-import com.company.ifAGreaterBReturnBElseReturnAMultiplyC.IfAGreaterBReturnAMultiplyCElseReturnB;
-import com.company.sumOfNumbersUpToN.SumOfNumbersUpToN;
-import com.company.sumOrDifferentDigitNumber.DifferentOfTwoDigitNumber;
-import com.company.usingMinus1AndSeparation2MinimusStepsGetFromAToB.FromAToBMinimumSteps;
+import com.company.checkNumberIsPowerOfTwo.IsPowerOfTwo;
 
 public class Main {
 
@@ -37,6 +32,11 @@ public class Main {
 //        System.out.println(FromAToBMinimumSteps.mapNumber(10,6));
 //        System.out.println(IfAGreaterBReturnAMultiplyCElseReturnB.checkNumber(3,4,6));
 //        System.out.println(CheckNumber.checkNumber(16));
+//        System.out.println(CheckNumber.checkNumberVersionTwo(1024));
+        int i=1024;
+        System.out.println(IsPowerOfTwo.checkNumberCustomIsPowerOfTwo(i));
+        System.out.println(IsPowerOfTwo.checkNumberIsPowerOfTwoVersionTwo(i));
+
 
     }
 }
