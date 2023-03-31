@@ -1,0 +1,12 @@
+name: Test Action
+
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - run: echo "This only show if work this action or not"
