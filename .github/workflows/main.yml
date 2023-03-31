@@ -9,4 +9,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: actions/checkout@v2
     - run: echo "This only show if work this action or not"
