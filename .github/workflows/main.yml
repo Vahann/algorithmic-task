@@ -1,22 +1,22 @@
 name: Test Action
 
-on:
-  pull_request:
-    branches: [main]
-jobs:
-  bulid:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Grant execute permission for gradlew
-        run: echo "This only show if work this action or not"
 # on:
 #   pull_request:
-#     branches: [ "main" ]
+#     branches: [main]
 # jobs:
-#   build:
-
+#   bulid:
 #     runs-on: ubuntu-latest
-
 #     steps:
+#       - name: Grant execute permission for gradlew
+#         run: echo "This only show if work this action or not"
+on:
+  pull_request:
+    branches: [ "main" ]
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
 #     - uses: actions/checkout@v2
-#     - run: echo "This only show if work this action or not"
+    - run: echo "This only show if work this action or not"
