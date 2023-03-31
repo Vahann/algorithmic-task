@@ -23,5 +23,4 @@ public class CustomCollectorDemo {
 
         LinkedList<Product> linkedListOfProducts = productList.stream().collect(toLinkedList);
     }
-
 }
