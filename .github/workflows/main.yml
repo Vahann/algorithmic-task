@@ -6,7 +6,6 @@ on:
     branches: [main]
 jobs:
   bulid:
-
     runs-on: ubuntu-latest
     steps:
       - name: Grant execute permission for gradlew
